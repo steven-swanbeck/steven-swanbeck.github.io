@@ -7,7 +7,6 @@
 - M.S. Robotics | The University of Texas at Austin
 - B.S. Mechanical Engineering | University of Nevada, Reno
 
----
 ## Relevant Work Experience
 **Graduate Research Assistant @ Nuclear & Applied Robotics Group (_August 2022 - Present_)**
 - Autonomous inspection, maintenance, and repair tasks for deployment into hazardous environments
