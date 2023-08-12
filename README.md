@@ -1,4 +1,4 @@
-# Robotics Engineer
+# Steven Swanbeck
 
 #### Technical Skills: ROS, C++, Python, Machine Learning (Scikit-Learn, TensorFlow, PyTorch), MATLAB, CAD (SOLIDWORKS & similar, GD&T), OpenCV, Point Cloud Library, MoveIt
 
@@ -20,6 +20,9 @@
 ## Projects
 
 ### Augmented-Reality Integration for Aiding and Altering Robot Insepction and Maintenance Tasks
+- By using augmented reality user interfaces, a human supervisor is able to accept, reject, or modify autonomous detections made by an independently operating robotic system.
+- This is useful for making sure the robot does not incidentally coat sensitive material, such as gauges or valves, or spend time repairing material that was falsely identified and not actually in need of repair.
+- The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_.
 {% include youtube.html id="rlCdHOC1ifg" %}
 
 ### Non-Contact Surface Coverage for Repair of Corroded Material
