@@ -1,12 +1,12 @@
-# Robotics Enthusiast
+# Robotics Engineer
 
-#### Technical Skills: ROS, C++, Python, CAD
+#### Technical Skills: ROS, C++, Python, Machine Learning (Scikit-Learn, TensorFlow, PyTorch), MATLAB, CAD (SOLIDWORKS & similar, GD&T), OpenCV, Point Cloud Library, MoveIt
 
 ## Education
-- M.S. Robotics | The University of Texas at Austin (_August 2022 - Present_)
-- B.S. Mechanical Engineering | University of Nevada, Reno (_August 2018 - December 2021_)
+- M.S. Robotics | The University of Texas at Austin
+- B.S. Mechanical Engineering | University of Nevada, Reno
 
-## Work Experience
+## Relevant Work Experience
 **Graduate Research Assistant @ Nuclear & Applied Robotics Group (_August 2022 - Present_)**
 - Autonomous inspection, maintenance, and repair tasks for deployment into hazardous environments
 
@@ -15,5 +15,26 @@
 
 **Electro-Mechanical Engineering Intern @ Hamilton Company (_June 2021 - August 2021_)**
 
-**Teaching Assistant @ University of Nevada, Reno (_Jaunary 2021 - December 2021_)**
+## Projects
+
+### Augmented-Reality Integration for Aiding and Altering Robot Insepction Tasks
+
+
+### Non-Contact Surface Coverage for Repair of Corroded Material
+
+
+### ML-Ops Pipeline for Rapidly Training and Deploying Models Using Point Cloud Data
+
+
+### Hardware-Agnostic 3D Dense Mapping Stack
+
+
+### Robotic Calculator and Game-Player
+
+
+### Anthropomorphic Soft Robotic Gripper
+
+
+### Sublunar Exploration Quadruped
+
 
