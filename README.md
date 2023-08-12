@@ -37,7 +37,7 @@
 
 ### Sublunar Exploration Quadruped
 
-
+---
 ## Publications
 1. R. Konda\*, D. Bombara\*, S. Swanbeck\*, and J. Zhang, "Anthropomorphic twisted string actuated soft robotic gripper with tendon-based stiffening," IEEE Transactions on Robotics, vol. 39, no. 2, pp. 1178-1195, 2023 (*equal contribution).
 2. A. Baker, C. Foy, S. Swanbeck, R. Konda and J. Zhang, "STAR–2: A Soft Twisted-string-actuated Anthropomorphic Robotic Gripper: Design, Fabrication, and Preliminary Testing," 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA, 2023, pp. 643-648.
