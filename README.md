@@ -19,8 +19,8 @@
 ---
 ## Projects
 
-### Augmented-Reality Integration for Aiding and Altering Robot Insepction Tasks
-
+### Augmented-Reality Integration for Aiding and Altering Robot Insepction and Maintenance Tasks
+{% include youtube.html id="rlCdHOC1ifg" %}
 
 ### Non-Contact Surface Coverage for Repair of Corroded Material
 
@@ -38,6 +38,7 @@
 
 
 ### Sublunar Exploration Quadruped
+
 
 ---
 ## Publications
