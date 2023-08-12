@@ -2,10 +2,12 @@
 
 #### Technical Skills: ROS, C++, Python, Machine Learning (Scikit-Learn, TensorFlow, PyTorch), MATLAB, CAD (SOLIDWORKS & similar, GD&T), OpenCV, Point Cloud Library, MoveIt
 
+---
 ## Education
 - M.S. Robotics | The University of Texas at Austin
 - B.S. Mechanical Engineering | University of Nevada, Reno
 
+---
 ## Relevant Work Experience
 **Graduate Research Assistant @ Nuclear & Applied Robotics Group (_August 2022 - Present_)**
 - Autonomous inspection, maintenance, and repair tasks for deployment into hazardous environments
@@ -15,6 +17,7 @@
 
 **Electro-Mechanical Engineering Intern @ Hamilton Company (_June 2021 - August 2021_)**
 
+---
 ## Projects
 
 ### Augmented-Reality Integration for Aiding and Altering Robot Insepction Tasks
