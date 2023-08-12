@@ -1,1 +1,7 @@
-# steven-swanbeck.github.io
+# Robotics Graduate Student
+
+### Education
+MS Robotics
+
+### Work Experience
+Researcher
