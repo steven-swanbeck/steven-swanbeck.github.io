@@ -39,7 +39,7 @@
 
 
 ## Publications
-1. R. Konda*, D. Bombara*, S. Swanbeck*, and J. Zhang, "Anthropomorphic twisted string actuated soft robotic gripper with tendon-based stiffening," IEEE Transactions on Robotics, vol. 39, no. 2, pp. 1178-1195, 2023 (*equal contribution).
+1. R. Konda\*, D. Bombara\*, S. Swanbeck\*, and J. Zhang, "Anthropomorphic twisted string actuated soft robotic gripper with tendon-based stiffening," IEEE Transactions on Robotics, vol. 39, no. 2, pp. 1178-1195, 2023 (*equal contribution).
 2. A. Baker, C. Foy, S. Swanbeck, R. Konda and J. Zhang, "STAR–2: A Soft Twisted-string-actuated Anthropomorphic Robotic Gripper: Design, Fabrication, and Preliminary Testing," 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA, 2023, pp. 643-648.
 3. S. Swanbeck, R. Konda, and J. Zhang, "Kinematic Modeling of a Twisted-String Actuated Soft Robotic Finger as Part of an Anthropomorphic Gripper," 2023 Modeling, Estimation and Control Conference (MECC), Lake Tahoe, NV, USA, 2023.
 4. F. Regal, S. Swanbeck, F. Parra, J. Rosenbaum, and M. Pryor, "Using Augmented Reality to Assess and Modify Mobile Manipulator Surface Repair Plans," 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, MI, USA, 2023.
