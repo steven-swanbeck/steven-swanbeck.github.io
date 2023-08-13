@@ -83,7 +83,9 @@
 - The prototype features PID-based self-stabilization and adjustable gait parameters, plus a remote control setting to allow a user to walk it around.
 
 ![Quadruped](/assets/img/seq_standing.png)
-
+{% include youtube.html id="LHgbjfePTno" %}
+{% include youtube.html id="Oor5UM_UCEk" %}
+{% include youtube.html id="YJJ4hOkALdQ" %}
 
 ---
 ## Publications
