@@ -39,10 +39,13 @@
 - Trained models are saved and indexed for future use and a detailed printout describing the model type, architecture and features, characteristics of the data from which the model was trained, and its performance on the validation data split is generated.
 - Saved models can be easily deployed to make predictions on and reconstruct new point cloud data, and can be queried as a ROS service for real-time predictions.
 
+
 ### Hardware-Agnostic 3D Dense Mapping Stack (_October 2022 - January 2023_)
 - Using LiDAR and image data collected passively while navigating an environment, dense colored 3D maps can be generated that accurately reflect the geometries and appearances of the objects within them.
 - Point clouds are colored with associated image data using projection strategies and are registered together for maximum fidelity.
 - Generated maps can be traversed by a human user to assess the condition of material within the environment and assess the accuracy of autonomous predictions made by the robot during survey, if applicable.
+
+- ![Facility Map](/assets/img/facility_map.png)
 
 ### Robotic Calculator and Game-Player (_September 2022 - November 2022_)
 - A calculator program written to perform basic arithmetic and perform mathematical order of operations is given an arm with which it can write the result of its calculations using a pen rather than simply printing the result to terminal.
