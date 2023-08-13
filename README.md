@@ -23,7 +23,9 @@
 - By using augmented reality user interfaces, a human supervisor is able to accept, reject, or modify autonomous detections made by an independently operating robotic system.
 - This is useful for making sure the robot does not incidentally coat sensitive material, such as gauges or valves, or spend time repairing material that was falsely identified and not actually in need of repair.
 - The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_, and visualized markers help the user guide the robot into its calculated desired position to perform a repair.
-  
+
+{% include youtube.html id="wLi5IyUC0lg" %}
+{% include youtube.html id="H9DwXMYC1yQ" %}
 {% include youtube.html id="rlCdHOC1ifg" %}
 
 ### Non-Contact Surface Coverage for Repair of Corroded Material (_May 2023 - Present_)
@@ -81,9 +83,7 @@
 - The prototype features PID-based self-stabilization and adjustable gait parameters, plus a remote control setting to allow a user to walk it around.
 
 ![Quadruped](/assets/img/seq_standing.png)
-{% include youtube.html id="LHgbjfePTno" %}
-{% include youtube.html id="Oor5UM_UCEk" %}
-{% include youtube.html id="YJJ4hOkALdQ" %}
+
 
 ---
 ## Publications
