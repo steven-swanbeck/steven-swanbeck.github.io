@@ -49,6 +49,10 @@
 - Similarly, the same arm given the ability to participate in a modified version of the classic "shell game" street scam, in which a participant is instructed to place money under one of three shells then mix them around and attempt to trick the robot into picking an incorrect shell under which there is no money. If the participant can fool the robot, they win the money, but if not, the game operator does.
 - Using computer vision, the robot is able to search for a marker discretely placed on one of the shells to determine which shell has the money.
 
+{% include youtube.html id="VsOunJDqvBQ" %}
+{% include youtube.html id="34CjPUCyPaU" %}
+{% include youtube.html id="NgUwk--LVM8" %}
+
 ### Anthropomorphic Soft Robotic Gripper (_August 2021 - June 2023_)
 - Grippers designed to mimic the dexterity and grasping capabilities of the human hand using soft materials and novel actuation mechanisms.
 - Twisted-string actuators (TSAs) used to generate high force, muscle-like linear actuation using tendons with low input power and motor torques.
@@ -57,12 +61,20 @@
 - The grippers were attached to a robotic manipulator and software packages written to coordinate their actions, enabling higher-level autonomous environmental manipulation tasks.
 - The gripper was shared with NASA's Dexterous Robotics Team at Johnson Space Center in Houston and temporarily attached to their Valkyrie humanoid robot.
 
+![SoftGripper](/assets/img/soft_gripper.jpg)
+{% include youtube.html id="PzI-jFkVfLc" %}
+{% include youtube.html id="ODOsu-wWiis" %}
+![Valkyrie](/assets/img/gripperonValkyrie.jpg)
+
 ### Sublunar Exploration Quadruped (_March 2021 - January 2022_)
 - NASA University Student Design Challenge to create an autonomous system capable of exploring evacuated subsurface lava tubes on the moon to assess their ability to sustain long-term human habitation.
 - A custom quadrupedal system was designed that is capable of walking in any direction and collecting LiDAR data to construct 3D maps of its environments.
 - The prototype features PID-based self-stabilization and adjustable gait parameters, plus a remote control setting to allow a user to walk it around.
 
-![Quadruped](/assets/img/seq_standing.jpg)
+![Quadruped](/assets/img/seq_standing.png)
+{% include youtube.html id="LHgbjfePTno" %}
+{% include youtube.html id="Oor5UM_UCEk" %}
+{% include youtube.html id="YJJ4hOkALdQ" %}
 
 ---
 ## Publications
