@@ -39,6 +39,9 @@
 - Trained models are saved and indexed for future use and a detailed printout describing the model type, architecture and features, characteristics of the data from which the model was trained, and its performance on the validation data split is generated.
 - Saved models can be easily deployed to make predictions on and reconstruct new point cloud data, and can be queried as a ROS service for real-time predictions.
 
+![pipeline example](/assets/img/labeling_pipeline_example.png)
+![model printout](/assets/img/model_printout.png)
+
 ### Hardware-Agnostic 3D Dense Mapping Stack (_October 2022 - January 2023_)
 - Using LiDAR and image data collected passively while navigating an environment, dense colored 3D maps can be generated that accurately reflect the geometries and appearances of the objects within them.
 - Point clouds are colored with associated image data using projection strategies and are registered together for maximum fidelity.
