@@ -1,7 +1,3 @@
-# Steven Swanbeck
-![headshot](/assets/img/headshot-modified.png)
-#### [LinkedIn](https://www.linkedin.com/in/stevenswanbeck/)
-#### [GitHub](https://github.com/steven-swanbeck)
 #### Technical Skills: ROS, C++, Python, Machine Learning (Scikit-Learn, TensorFlow, PyTorch), MATLAB, CAD (SOLIDWORKS & similar, GD&T), OpenCV, Point Cloud Library, MoveIt
 
 ---
