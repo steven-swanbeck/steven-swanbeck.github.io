@@ -64,6 +64,7 @@
 ![Quadruped Standing](https://github.com/steven-swanbeck/steven-swanbeck.github.io/tree/main/_includes/images/seq_standing.jpg)
 <img src="/_includes/images/seq_standing.jpg" alt="Quadruped Standing" title="Quadruped Standing">
 ![Quadruped Standing](/_includes/images/seq_standing.jpg)
+![Logo Jekyll]({{https://github.com/steven-swanbeck/steven-swanbeck.github.io/tree/main}}/_includes/images/seq_standing.jpg)
 
 ---
 ## Publications
