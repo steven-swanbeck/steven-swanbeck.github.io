@@ -1,5 +1,8 @@
 # Steven Swanbeck
-
+![headshot](/assets/img/headshot.jpeg)
+- [LinkedIn](https://www.linkedin.com/in/stevenswanbeck/)
+- [GitHub](https://github.com/steven-swanbeck)
+- steven.swanbeck@gmail.com
 #### Technical Skills: ROS, C++, Python, Machine Learning (Scikit-Learn, TensorFlow, PyTorch), MATLAB, CAD (SOLIDWORKS & similar, GD&T), OpenCV, Point Cloud Library, MoveIt
 
 ---
@@ -7,7 +10,7 @@
 - M.S. Robotics, The University of Texas at Austin
 - B.S. Mechanical Engineering, University of Nevada, Reno
 
-## Relevant Work Experience
+## Selected Work Experience
 **Graduate Research Assistant @ Nuclear & Applied Robotics Group (_August 2022 - Present_)**
 - Autonomous inspection, maintenance, and repair tasks for deployment into hazardous environments
 
@@ -17,7 +20,7 @@
 **Electro-Mechanical Engineering Intern @ Hamilton Company (_June 2021 - August 2021_)**
 
 ---
-## Projects
+## Selected Projects
 
 ### Augmented-Reality Integration for Aiding and Altering Robot Insepction and Maintenance Tasks (_July 2023 - Present_)
 - By using augmented reality user interfaces, a human supervisor is able to accept, reject, or modify autonomous detections made by an independently operating robotic system.
