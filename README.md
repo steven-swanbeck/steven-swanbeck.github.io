@@ -23,7 +23,7 @@
 - By using augmented reality user interfaces, a human supervisor is able to accept, reject, or modify autonomous detections made by an independently operating robotic system.
 - This is useful for making sure the robot does not incidentally coat sensitive material, such as gauges or valves, or spend time repairing material that was falsely identified and not actually in need of repair.
 - The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_, and visualized markers help the user guide the robot into its calculated desired position to perform a repair.
-- 
+  
 {% include youtube.html id="rlCdHOC1ifg" %}
 
 ### Non-Contact Surface Coverage for Repair of Corroded Material (_May 2023 - Present_)
@@ -32,8 +32,7 @@
 - Using the perceived environment geometry and manipulability of the system, virtual fixtures are compliantly replanned until successful to enable surface coverage given these constraints.
 - Predictions about which material to repair can be made autonomously using custom-trained detection models or made directly by a human supervisor using the [labelme](https://github.com/wkentaro/labelme) image labeling tool to create polygons around material to coat which are used in real time to generate plans to repair the marked material. Because labels are generated in the labelme format, this allows a training dataset to be constructed over time which can be used to train increasingly accurate ML models for autonomous detections.
 
-{% include youtube.html id="wLi5IyUC0lg" %}
- 
+{% include youtube.html id="hxRTpih4y6U" %}
 
 ### ML-Ops Pipeline for Rapidly Training and Deploying Models Using Point Cloud Data (_February 2023 - April 2023_)
 - Using raw input LiDAR data, point clouds can be registered together and combined to create larger, unified maps of a space.
