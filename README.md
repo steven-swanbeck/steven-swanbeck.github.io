@@ -25,7 +25,7 @@
 - The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_, and visualized markers help the user guide the robot into its calculated desired position to perform a repair.
 {% include youtube.html id="rlCdHOC1ifg" %}
 
-### Non-Contact Surface Coverage for Repair of Corroded Material (_October 2022 - Present_)
+### Non-Contact Surface Coverage for Repair of Corroded Material (_May 2023 - Present_)
 - Autonomous detection of corroded material within the environment using fused sensor measurements informs which surfaces are in need of repair.
 - The geometries of these surfaces are reconstructed using the collected sensor data and used to develop a series of virtual fixtures offset from the surface at which a spray coating can be applied to coat the target surface, arresting the development of further decay.
 - Using the perceived environment geometry and manipulability of the system, virtual fixtures are compliantly replanned until successful to enable surface coverage given these constraints.
@@ -49,7 +49,7 @@
 - Similarly, the same arm given the ability to participate in a modified version of the classic "shell game" street scam, in which a participant is instructed to place money under one of three shells then mix them around and attempt to trick the robot into picking an incorrect shell under which there is no money. If the participant can fool the robot, they win the money, but if not, the game operator does.
 - Using computer vision, the robot is able to search for a marker discretely placed on one of the shells to determine which shell has the money.
 
-### Anthropomorphic Soft Robotic Gripper (_August 2021 - Present_)
+### Anthropomorphic Soft Robotic Gripper (_August 2021 - June 2023_)
 - Grippers designed to mimic the dexterity and grasping capabilities of the human hand using soft materials and novel actuation mechanisms.
 - Twisted-string actuators (TSAs) used to generate high force, muscle-like linear actuation using tendons with low input power and motor torques.
 - Original gripper system was able to execute almost all grasps within the human grasp taxonomy and could lift almost 13 times its own weight.
