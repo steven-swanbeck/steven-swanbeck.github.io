@@ -50,7 +50,7 @@
 - Using LiDAR and image data collected passively while navigating an environment, dense colored 3D maps can be generated that accurately reflect the geometries and appearances of the objects within them.
 - Point clouds are colored with associated image data using projection strategies and are registered together for maximum fidelity.
 - Generated maps can be traversed by a human user to assess the condition of material within the environment and assess the accuracy of autonomous predictions made by the robot during survey, if applicable.
-![Facility Map](/assets/img/facility_map.png)
+![Facility Map](/assets/img/map2.png)
 ![facility map colored](/assets/img/plant_full.png)
 
 ### Robotic Calculator and Game-Player (_September 2022 - November 2022_)
