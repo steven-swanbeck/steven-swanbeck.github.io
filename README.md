@@ -61,6 +61,8 @@
 - NASA University Student Design Challenge to create an autonomous system capable of exploring evacuated subsurface lava tubes on the moon to assess their ability to sustain long-term human habitation.
 - A custom quadrupedal system was designed that is capable of walking in any direction and collecting LiDAR data to construct 3D maps of its environments.
 - The prototype features PID-based self-stabilization and adjustable gait parameters, plus a remote control setting to allow a user to walk it around.
+![Quadruped Standing](https://github.com/steven-swanbeck/steven-swanbeck.github.io/tree/main/_includes/images/seq_standing.jpg)
+<img src="/_includes/images/seq_standing.jpg" alt="Quadruped Standing" title="Quadruped Standing">
 
 ---
 ## Publications
