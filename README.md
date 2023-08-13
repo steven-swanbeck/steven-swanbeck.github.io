@@ -51,7 +51,7 @@
 - Point clouds are colored with associated image data using projection strategies and are registered together for maximum fidelity.
 - Generated maps can be traversed by a human user to assess the condition of material within the environment and assess the accuracy of autonomous predictions made by the robot during survey, if applicable.
 ![Facility Map](/assets/img/map2.png)
-![facility map colored](/assets/img/plant_full.png)
+![facility map colored](/assets/img/map3.png)
 
 ### Robotic Calculator and Game-Player (_September 2022 - November 2022_)
 - A calculator program written to perform basic arithmetic and perform mathematical order of operations is given an arm with which it can write the result of its calculations using a pen rather than simply printing the result to terminal.
