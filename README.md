@@ -1,5 +1,4 @@
 # Steven Swanbeck
-## Test
 ![headshot](/assets/img/headshot-modified.png)
 #### [LinkedIn](https://www.linkedin.com/in/stevenswanbeck/)
 #### [GitHub](https://github.com/steven-swanbeck)
