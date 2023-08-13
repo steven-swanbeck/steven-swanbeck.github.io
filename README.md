@@ -57,12 +57,15 @@
 - The grippers were attached to a robotic manipulator and software packages written to coordinate their actions, enabling higher-level autonomous environmental manipulation tasks.
 - The gripper was shared with NASA's Dexterous Robotics Team at Johnson Space Center in Houston and temporarily attached to their Valkyrie humanoid robot.
 
+![SoftGripper](/assets/img/soft_gripper.jpg)
+![Valkyrie](/assets/img/gripperonValkyrie.jpg)
+
 ### Sublunar Exploration Quadruped (_March 2021 - January 2022_)
 - NASA University Student Design Challenge to create an autonomous system capable of exploring evacuated subsurface lava tubes on the moon to assess their ability to sustain long-term human habitation.
 - A custom quadrupedal system was designed that is capable of walking in any direction and collecting LiDAR data to construct 3D maps of its environments.
 - The prototype features PID-based self-stabilization and adjustable gait parameters, plus a remote control setting to allow a user to walk it around.
 
-![Quadruped](/assets/img/seq_standing.jpg)
+![Quadruped](/assets/img/seq_standing.png)
 
 ---
 ## Publications
