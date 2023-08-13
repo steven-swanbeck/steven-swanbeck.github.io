@@ -63,7 +63,7 @@
 - The prototype features PID-based self-stabilization and adjustable gait parameters, plus a remote control setting to allow a user to walk it around.
 ![Quadruped Standing](https://github.com/steven-swanbeck/steven-swanbeck.github.io/tree/main/_includes/images/seq_standing.jpg)
 <img src="/_includes/images/seq_standing.jpg" alt="Quadruped Standing" title="Quadruped Standing">
-![Quadruped Standing](/_includes/images/seq_standing.jpg){:class="img-responsive"}
+![Quadruped Standing](/_includes/images/seq_standing.jpg)
 
 ---
 ## Publications
