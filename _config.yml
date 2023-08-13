@@ -1,14 +1,14 @@
-title: Steven Swanbeck
-logo: /assets/img/headshot.jpeg
-description: Robotics Engineer
-show_downloads: false
-theme: jekyll-theme-minimal
+# title: Steven Swanbeck
+# logo: /assets/img/headshot.jpeg
+# description: Robotics Engineer
+# show_downloads: false
+# theme: jekyll-theme-minimal
 
 # remote_theme: pages-themes/cayman@v0.2.0
-# # remote_theme: hydecorp/hydejack
-# # remote_theme: mmistakes/jekyll-theme-basically-basic
-# plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
-# title: Steven Swanbeck
-# description: "Robotics Engineer"
-# show_downloads: false
+remote_theme: hydecorp/hydejack
+# remote_theme: mmistakes/jekyll-theme-basically-basic
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: Steven Swanbeck
+description: "Robotics Engineer"
+show_downloads: false
