@@ -23,7 +23,6 @@
 - By using augmented reality user interfaces, a human supervisor is able to accept, reject, or modify autonomous detections made by an independently operating robotic system.
 - This is useful for making sure the robot does not incidentally coat sensitive material, such as gauges or valves, or spend time repairing material that was falsely identified and not actually in need of repair.
 - The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_, and visualized markers help the user guide the robot into its calculated desired position to perform a repair.
-
 {% include youtube.html id="rlCdHOC1ifg" %}
 
 ### Non-Contact Surface Coverage for Repair of Corroded Material (_May 2023 - Present_)
@@ -31,7 +30,6 @@
 - The geometries of these surfaces are reconstructed using the collected sensor data and used to develop a series of virtual fixtures offset from the surface at which a spray coating can be applied to coat the target surface, arresting the development of further decay.
 - Using the perceived environment geometry and manipulability of the system, virtual fixtures are compliantly replanned until successful to enable surface coverage given these constraints.
 - Predictions about which material to repair can be made autonomously using custom-trained detection models or made directly by a human supervisor using the [labelme](https://github.com/wkentaro/labelme) image labeling tool to create polygons around material to coat which are used in real time to generate plans to repair the marked material. Because labels are generated in the labelme format, this allows a training dataset to be constructed over time which can be used to train increasingly accurate ML models for autonomous detections.
-
 {% include youtube.html id="wLi5IyUC0lg" %}
 {% include youtube.html id="H9DwXMYC1yQ" %}
 {% include youtube.html id="hxRTpih4y6U" %}
@@ -43,7 +41,6 @@
 - This generated dataset can be used to rapidly train machine learning models of various types, including logistic regression, state-vector machines, gradient-boosted trees, and arbitrarily complex ANN and RNN architectures.
 - Trained models are saved and indexed for future use and a detailed printout describing the model type, architecture and features, characteristics of the data from which the model was trained, and its performance on the validation data split is generated.
 - Saved models can be easily deployed to make predictions on and reconstruct new point cloud data, and can be queried as a ROS service for real-time predictions.
-
 ![pipeline example](/assets/img/labeling_pipeline_example.png)
 ![model printout](/assets/img/model_printout.png)
 
@@ -51,7 +48,6 @@
 - Using LiDAR and image data collected passively while navigating an environment, dense colored 3D maps can be generated that accurately reflect the geometries and appearances of the objects within them.
 - Point clouds are colored with associated image data using projection strategies and are registered together for maximum fidelity.
 - Generated maps can be traversed by a human user to assess the condition of material within the environment and assess the accuracy of autonomous predictions made by the robot during survey, if applicable.
-
 ![Facility Map](/assets/img/facility_map.png)
 ![facility map colored](/assets/img/plant_full.png)
 
@@ -59,7 +55,6 @@
 - A calculator program written to perform basic arithmetic and perform mathematical order of operations is given an arm with which it can write the result of its calculations using a pen rather than simply printing the result to terminal.
 - Similarly, the same arm given the ability to participate in a modified version of the classic "shell game" street scam, in which a participant is instructed to place money under one of three shells then mix them around and attempt to trick the robot into picking an incorrect shell under which there is no money. If the participant can fool the robot, they win the money, but if not, the game operator does.
 - Using computer vision, the robot is able to search for a marker discretely placed on one of the shells to determine which shell has the money.
-
 {% include youtube.html id="VsOunJDqvBQ" %}
 {% include youtube.html id="34CjPUCyPaU" %}
 {% include youtube.html id="NgUwk--LVM8" %}
@@ -71,7 +66,6 @@
 - Subsequent versions the gripper featured a higher number of actuators to improve dexterity and enable in-hand manipulations.
 - The grippers were attached to a robotic manipulator and software packages written to coordinate their actions, enabling higher-level autonomous environmental manipulation tasks.
 - The gripper was shared with NASA's Dexterous Robotics Team at Johnson Space Center in Houston and temporarily attached to their Valkyrie humanoid robot.
-
 ![SoftGripper](/assets/img/soft_gripper.jpg)
 {% include youtube.html id="PzI-jFkVfLc" %}
 {% include youtube.html id="ODOsu-wWiis" %}
@@ -81,7 +75,6 @@
 - NASA University Student Design Challenge to create an autonomous system capable of exploring evacuated subsurface lava tubes on the moon to assess their ability to sustain long-term human habitation.
 - A custom quadrupedal system was designed that is capable of walking in any direction and collecting LiDAR data to construct 3D maps of its environments.
 - The prototype features PID-based self-stabilization and adjustable gait parameters, plus a remote control setting to allow a user to walk it around.
-
 ![Quadruped](/assets/img/seq_standing.png)
 {% include youtube.html id="LHgbjfePTno" %}
 {% include youtube.html id="Oor5UM_UCEk" %}
