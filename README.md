@@ -3,8 +3,12 @@
 #### [LinkedIn](https://www.linkedin.com/in/stevenswanbeck/)
 #### [GitHub](https://github.com/steven-swanbeck)
 #### Technical Skills: ROS, C++, Python, Machine Learning (Scikit-Learn, TensorFlow, PyTorch), MATLAB, CAD (SOLIDWORKS & similar, GD&T), OpenCV, Point Cloud Library, MoveIt
-
 ---
+## About
+I am a graduate student in the [Nuclear and Applied Robotics Group](https://robotics.me.utexas.edu/) (NRG) advised by [Dr. Mitch Pryor](https://www.me.utexas.edu/people/faculty-directory/pryor) at The University of Texas at Austin.
+
+Prior to joining NRG, I completed my undergraduate studies in mechanical engineering at the University of Nevada, Reno and worked in the [Smart Robotics Lab](https://packpages.unr.edu/jun) under the guidance of [Dr. Jun Zhang](https://www.unr.edu/me/about/people/jun-zhang).
+
 ## Education
 - M.S. Robotics, The University of Texas at Austin
 - B.S. Mechanical Engineering, University of Nevada, Reno
