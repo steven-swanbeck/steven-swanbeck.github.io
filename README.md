@@ -1,8 +1,9 @@
-# Steven Swanbeck
+<!-- # Steven Swanbeck -->
+## About
 ![headshot](/assets/img/8_23.jpg)
 <!-- ![headshot](/assets/img/headshot-modified.png) -->
-#### [LinkedIn](https://www.linkedin.com/in/stevenswanbeck/)
-#### [GitHub](https://github.com/steven-swanbeck)
+<!-- #### [LinkedIn](https://www.linkedin.com/in/stevenswanbeck/) -->
+<!-- #### [GitHub](https://github.com/steven-swanbeck) -->
 ---
 ## About
 I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https://robotics.me.utexas.edu/) advised by [Dr. Mitch Pryor](https://www.me.utexas.edu/people/faculty-directory/pryor) at The University of Texas at Austin. Prior to joining NRG, I completed my undergraduate studies at the University of Nevada, Reno and worked in the [Smart Robotics Lab](https://packpages.unr.edu/jun) under the guidance of [Dr. Jun Zhang](https://www.unr.edu/me/about/people/jun-zhang).
