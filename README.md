@@ -13,12 +13,12 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 - M.S. Robotics, The University of Texas at Austin
 - B.S. Mechanical Engineering, University of Nevada, Reno
 
-## Selected Work Experience
-**Graduate Research Assistant @ Nuclear & Applied Robotics Group (_August 2022 - Present_)**
-- Autonomous inspection, maintenance, and repair tasks for deployment into hazardous environments
-
-**Undergraduate Research Assistant @ Smart Robotics Lab (_August 2021 - August 2022_)**
-- Design, modeling, and control of novel soft-robotic grippers to improve safety of human-robot interaction
+<!-- ## Selected Work Experience -->
+<!-- **Graduate Research Assistant @ Nuclear & Applied Robotics Group (_August 2022 - Present_)** -->
+<!-- - Autonomous inspection, maintenance, and repair tasks for deployment into hazardous environments -->
+<!--  -->
+<!-- **Undergraduate Research Assistant @ Smart Robotics Lab (_August 2021 - August 2022_)** -->
+<!-- - Design, modeling, and control of novel soft-robotic grippers to improve safety of human-robot interaction -->
 
 ---
 ## Selected Projects
