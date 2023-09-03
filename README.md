@@ -1,5 +1,6 @@
 # Steven Swanbeck
-![headshot](/assets/img/headshot-modified.png)
+![headshot](/assets/img/8_23.jpg)
+<!-- ![headshot](/assets/img/headshot-modified.png) -->
 #### [LinkedIn](https://www.linkedin.com/in/stevenswanbeck/)
 #### [GitHub](https://github.com/steven-swanbeck)
 ---
