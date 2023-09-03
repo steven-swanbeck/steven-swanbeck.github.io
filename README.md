@@ -5,9 +5,7 @@
 #### [GitHub](https://github.com/steven-swanbeck)
 ---
 ## About
-I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https://robotics.me.utexas.edu/) advised by [Dr. Mitch Pryor](https://www.me.utexas.edu/people/faculty-directory/pryor) at The University of Texas at Austin.
-
-Prior to joining NRG, I completed my undergraduate studies at the University of Nevada, Reno and worked in the [Smart Robotics Lab](https://packpages.unr.edu/jun) under the guidance of [Dr. Jun Zhang](https://www.unr.edu/me/about/people/jun-zhang).
+I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https://robotics.me.utexas.edu/) advised by [Dr. Mitch Pryor](https://www.me.utexas.edu/people/faculty-directory/pryor) at The University of Texas at Austin. Prior to joining NRG, I completed my undergraduate studies at the University of Nevada, Reno and worked in the [Smart Robotics Lab](https://packpages.unr.edu/jun) under the guidance of [Dr. Jun Zhang](https://www.unr.edu/me/about/people/jun-zhang).
 
 ## Education
 - M.S. Robotics, The University of Texas at Austin
@@ -23,7 +21,7 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 ---
 ## Selected Projects
 
-### Augmented-Reality Integration for Aiding and Altering Robot Insepction and Maintenance Tasks (_July 2023 - Present_)
+### Augmented-Reality Integration for Aiding and Altering Robot Inspection and Maintenance Tasks (_July 2023 - Present_)
 - By using augmented reality user interfaces, a human supervisor is able to accept, reject, or modify autonomous detections made by an independently operating robotic system.
 - This is useful for making sure the robot does not incidentally coat sensitive material, such as gauges or valves, or spend time repairing material that was falsely identified and not actually in need of repair.
 - The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_, and visualized markers help the user guide the robot into its calculated desired position to perform a repair.
