@@ -63,7 +63,7 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 - Saved models can be easily deployed to make predictions on and reconstruct new point cloud data, and can be queried as a ROS service for real-time predictions.
 
 ![pipeline example](/assets/img/labeling_pipeline_example.png)
-![model printout](/assets/img/model_printout.png)
+<!-- ![model printout](/assets/img/model_printout.png) -->
 
 ### Hardware-Agnostic 3D Dense Mapping Stack (_October 2022 - January 2023_)
 - Using LiDAR and image data collected passively while navigating an environment, dense colored 3D maps can be generated that accurately reflect the geometries and appearances of the objects within them.
