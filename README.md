@@ -3,13 +3,13 @@
 <!-- ![headshot](/assets/img/headshot-modified.png) -->
 #### [LinkedIn](https://www.linkedin.com/in/stevenswanbeck/)
 #### [GitHub](https://github.com/steven-swanbeck)
----
-## About
+<!-- --- -->
+<!-- ## About -->
 I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https://robotics.me.utexas.edu/) advised by [Dr. Mitch Pryor](https://www.me.utexas.edu/people/faculty-directory/pryor) at The University of Texas at Austin.
 
 Prior to joining NRG, I completed my undergraduate studies at the University of Nevada, Reno and worked in the [Smart Robotics Lab](https://packpages.unr.edu/jun) under the guidance of [Dr. Jun Zhang](https://www.unr.edu/me/about/people/jun-zhang).
 
-## Education
+# Education
 - M.S. Robotics, The University of Texas at Austin
 - B.S. Mechanical Engineering, University of Nevada, Reno
 
@@ -21,13 +21,7 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 <!-- - Design, modeling, and control of novel soft-robotic grippers to improve safety of human-robot interaction -->
 
 ---
-## Selected Projects
-
-### Augmented-Reality Integration for Aiding and Altering Robot Insepction and Maintenance Tasks (_July 2023 - Present_)
-- By using augmented reality user interfaces, a human supervisor is able to accept, reject, or modify autonomous detections made by an independently operating robotic system.
-- This is useful for making sure the robot does not incidentally coat sensitive material, such as gauges or valves, or spend time repairing material that was falsely identified and not actually in need of repair.
-- The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_, and visualized markers help the user guide the robot into its calculated desired position to perform a repair.
-{% include youtube.html id="rlCdHOC1ifg" %}
+# Selected Projects
 
 ### Non-Contact Surface Coverage for Repair of Corroded Material (_May 2023 - Present_)
 - Autonomous detection of corroded material within the environment using fused sensor measurements informs which surfaces are in need of repair.
@@ -41,13 +35,21 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 {% include youtube.html id="H9DwXMYC1yQ" %}
 {% include youtube.html id="hxRTpih4y6U" %}
 
-### Models for Detection of Corroded Material in Industrial Environments (_August 2023_)
+### Image Models for Detection of Corroded Material in Industrial Environments (_August 2023_)
 - Mask RCNN, residual network, and autoencoder architectures all explored as means of autonomously detecting corroded material in industrial settings.
 - Models were trained on an [open source semantic segmentation dataset](https://data.lib.vt.edu/articles/dataset/Corrosion_Condition_State_Semantic_Segmentation_Dataset/16624663) that was augmented with additional data collected in process facility environments.
 - Models were integrated into a front end processing pipeline to create probabilistic masks of images that were then used to inform the associated surface geometry from 3D data.
 ![image_model_results](/assets/img/image_model_results.png)
 
-<!-- ### Drone Gripper for Passive Grasping and Perching (_April 2023_) -->
+### Augmented-Reality Integration for Aiding and Altering Robot Insepction and Maintenance Tasks (_July 2023 - August 2023_)
+- By using augmented reality user interfaces, a human supervisor is able to accept, reject, or modify autonomous detections made by an independently operating robotic system.
+- This is useful for making sure the robot does not incidentally coat sensitive material, such as gauges or valves, or spend time repairing material that was falsely identified and not actually in need of repair.
+- The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_, and visualized markers help the user guide the robot into its calculated desired position to perform a repair.
+{% include youtube.html id="rlCdHOC1ifg" %}
+
+### Drone Gripper for Passive Grasping and Perching (_April 2023_)
+- 
+
 ### ML-Ops Pipeline for Rapidly Training and Deploying Models Using Point Cloud Data (_February 2023 - April 2023_)
 - Using raw input LiDAR data, point clouds can be registered together and combined to create larger, unified maps of a space.
 - This data can be colored using various strategies to aid visualization, and then labeled using the [labelCloud](https://github.com/ch-sa/labelCloud) point cloud labeling tool.
@@ -95,7 +97,7 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 {% include youtube.html id="YJJ4hOkALdQ" %}
 
 ---
-## Publications
+# Publications
 1. R. Konda\*, D. Bombara\*, S. Swanbeck\*, and J. Zhang, "Anthropomorphic twisted string actuated soft robotic gripper with tendon-based stiffening," IEEE Transactions on Robotics, vol. 39, no. 2, pp. 1178-1195, 2023 (*equal contribution).
 2. A. Baker, C. Foy, S. Swanbeck, R. Konda and J. Zhang, "STAR–2: A Soft Twisted-string-actuated Anthropomorphic Robotic Gripper: Design, Fabrication, and Preliminary Testing," 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA, 2023, pp. 643-648.
 3. S. Swanbeck, R. Konda, and J. Zhang, "Kinematic Modeling of a Twisted-String Actuated Soft Robotic Finger as Part of an Anthropomorphic Gripper," 2023 Modeling, Estimation and Control Conference (MECC), Lake Tahoe, NV, USA, 2023.
