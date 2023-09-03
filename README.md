@@ -23,6 +23,12 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 ---
 ## Selected Projects
 
+### Augmented-Reality Integration for Aiding and Altering Robot Insepction and Maintenance Tasks (_July 2023 - Present_)
+- By using augmented reality user interfaces, a human supervisor is able to accept, reject, or modify autonomous detections made by an independently operating robotic system.
+- This is useful for making sure the robot does not incidentally coat sensitive material, such as gauges or valves, or spend time repairing material that was falsely identified and not actually in need of repair.
+- The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_, and visualized markers help the user guide the robot into its calculated desired position to perform a repair.
+{% include youtube.html id="rlCdHOC1ifg" %}
+
 ### Non-Contact Surface Coverage for Repair of Corroded Material (_May 2023 - Present_)
 - Autonomous detection of corroded material within the environment using fused sensor measurements informs which surfaces are in need of repair.
 - The geometries of these surfaces are reconstructed using the collected sensor data and used to develop a series of virtual fixtures offset from the surface at which a spray coating can be applied to coat the target surface, arresting the development of further decay.
@@ -41,14 +47,10 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 - Models were integrated into a front end processing pipeline to create probabilistic masks of images that were then used to inform the associated surface geometry from 3D data.
 ![image_model_results](/assets/img/image_model_results.png)
 
-### Augmented-Reality Integration for Aiding and Altering Robot Insepction and Maintenance Tasks (_July 2023 - August 2023_)
-- By using augmented reality user interfaces, a human supervisor is able to accept, reject, or modify autonomous detections made by an independently operating robotic system.
-- This is useful for making sure the robot does not incidentally coat sensitive material, such as gauges or valves, or spend time repairing material that was falsely identified and not actually in need of repair.
-- The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_, and visualized markers help the user guide the robot into its calculated desired position to perform a repair.
-{% include youtube.html id="rlCdHOC1ifg" %}
-
-<!-- ### Drone Gripper for Passive Grasping and Perching (_April 2023_) -->
-<!-- -  -->
+### Drone Gripper for Passive Grasping and Perching (_April 2023_)
+- Gripper concept to allow a drone to passively perch on or hang under features in its environment, including tree branches, railings, and posts, to perform long-duration area surveillance tasks.
+- Prototype was set to reach a user-specified grasping force around cylindrical objects of various sizes and could remain passively actuated once that force had been achieved. If the measured grasping force began to exceed or undershoot its target value, the grasp was autonomously actively adjusted to account for environmental factors such as wind and prevent the gripper from losing its perch.
+![gripper_perching](/assets/img/gripper_perching.png)
 
 ### ML-Ops Pipeline for Rapidly Training and Deploying Models Using Point Cloud Data (_February 2023 - April 2023_)
 - Using raw input LiDAR data, point clouds can be registered together and combined to create larger, unified maps of a space.
