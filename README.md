@@ -36,10 +36,7 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 
 <!-- ![Survey](/assets/img/caught_in_the_act.png) -->
 ![Repair](/assets/img/caught_in_the_act_the_finale.png)
-<!-- {-->
-<!--% include -->
-<!--youtube.html id="wLi5IyUC0lg" -->
-<!-- %} -->
+{% include youtube.html id="wLi5IyUC0lg" %}
 {% include youtube.html id="H9DwXMYC1yQ" %}
 {% include youtube.html id="hxRTpih4y6U" %}
 
