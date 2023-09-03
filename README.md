@@ -55,7 +55,7 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 - Prototype was set to reach a user-specified grasping force around cylindrical objects of various sizes and could remain passively actuated once that force had been achieved. 
 - If the measured grasping force began to exceed or undershoot its target value, the grasp was autonomously actively adjusted to account for environmental factors such as wind and prevent the gripper from losing its perch.
 
-![gripper_perching](/assets/img/gripper_perching.png)
+![gripper_perching](/assets/img/gripper_perch.png)
 
 ### ML-Ops Pipeline for Rapidly Training and Deploying Models Using Point Cloud Data (_February 2023 - April 2023_)
 - Using raw input LiDAR data, point clouds can be registered together and combined to create larger, unified maps of a space.
