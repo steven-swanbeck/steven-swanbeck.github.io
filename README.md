@@ -33,13 +33,21 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 - Autonomous detection of corroded material within the environment using fused sensor measurements informs which surfaces are in need of repair.
 - The geometries of these surfaces are reconstructed using the collected sensor data and used to develop a series of virtual fixtures offset from the surface at which a spray coating can be applied to coat the target surface, arresting the development of further decay.
 - Using the perceived environment geometry and manipulability of the system, virtual fixtures are compliantly replanned until successful to enable surface coverage given these constraints.
-- Predictions about which material to repair can be made autonomously using custom-trained detection models or made directly by a human supervisor using the [labelme](https://github.com/wkentaro/labelme) image labeling tool to create polygons around material to coat which are used in real time to generate plans to repair the marked material. Because labels are generated in the labelme format, this allows a training dataset to be constructed over time which can be used to train increasingly accurate ML models for autonomous detections.
+- Predictions about which material to repair can be made autonomously using custom-trained detection models or made directly by a human supervisor using the [labelme](https://github.com/wkentaro/labelme) image labeling tool to create polygons around material to coat which are used in real time to generate plans to repair the associated surfaces. Because labels are generated in the labelme format, this allows a training dataset to be constructed over time which can be used to train increasingly accurate ML models for autonomous detections.
+- Work also extended to perform surface inspections to detect the presence of alpha radiation emitted by previously irradiated material in a nuclear boneyard setting.
 ![Survey](/assets/img/caught_in_the_act.png)
 ![Repair](/assets/img/caught_in_the_act_the_finale.png)
 {% include youtube.html id="wLi5IyUC0lg" %}
 {% include youtube.html id="H9DwXMYC1yQ" %}
 {% include youtube.html id="hxRTpih4y6U" %}
 
+### Models for Detection of Corroded Material in Industrial Environments (_August 2023_)
+- Mask RCNN, residual network, and autoencoder architectures all explored as means of autonomously detecting corroded material in industrial settings.
+- Models were trained on an [open source semantic segmentation dataset](https://data.lib.vt.edu/articles/dataset/Corrosion_Condition_State_Semantic_Segmentation_Dataset/16624663) that was augmented with additional data collected in process facility environments.
+- Models were integrated into a front end processing pipeline to create probabilistic masks of images that were then used to inform the associated surface geometry from 3D data.
+![image_model_results](/assets/img/image_model_results.png)
+
+<!-- ### Drone Gripper for Passive Grasping and Perching (_April 2023_) -->
 ### ML-Ops Pipeline for Rapidly Training and Deploying Models Using Point Cloud Data (_February 2023 - April 2023_)
 - Using raw input LiDAR data, point clouds can be registered together and combined to create larger, unified maps of a space.
 - This data can be colored using various strategies to aid visualization, and then labeled using the [labelCloud](https://github.com/ch-sa/labelCloud) point cloud labeling tool.
