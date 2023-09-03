@@ -3,13 +3,13 @@
 <!-- ![headshot](/assets/img/headshot-modified.png) -->
 #### [LinkedIn](https://www.linkedin.com/in/stevenswanbeck/)
 #### [GitHub](https://github.com/steven-swanbeck)
-<!-- --- -->
-<!-- ## About -->
+---
+## About
 I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https://robotics.me.utexas.edu/) advised by [Dr. Mitch Pryor](https://www.me.utexas.edu/people/faculty-directory/pryor) at The University of Texas at Austin.
 
 Prior to joining NRG, I completed my undergraduate studies at the University of Nevada, Reno and worked in the [Smart Robotics Lab](https://packpages.unr.edu/jun) under the guidance of [Dr. Jun Zhang](https://www.unr.edu/me/about/people/jun-zhang).
 
-# Education
+## Education
 - M.S. Robotics, The University of Texas at Austin
 - B.S. Mechanical Engineering, University of Nevada, Reno
 
@@ -21,7 +21,7 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 <!-- - Design, modeling, and control of novel soft-robotic grippers to improve safety of human-robot interaction -->
 
 ---
-# Selected Projects
+## Selected Projects
 
 ### Non-Contact Surface Coverage for Repair of Corroded Material (_May 2023 - Present_)
 - Autonomous detection of corroded material within the environment using fused sensor measurements informs which surfaces are in need of repair.
@@ -47,8 +47,8 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 - The use of augmented reality allows the user to see exactly what the robot intends to repair and how it will do so _in situ_, and visualized markers help the user guide the robot into its calculated desired position to perform a repair.
 {% include youtube.html id="rlCdHOC1ifg" %}
 
-### Drone Gripper for Passive Grasping and Perching (_April 2023_)
-- 
+<!-- ### Drone Gripper for Passive Grasping and Perching (_April 2023_) -->
+<!-- -  -->
 
 ### ML-Ops Pipeline for Rapidly Training and Deploying Models Using Point Cloud Data (_February 2023 - April 2023_)
 - Using raw input LiDAR data, point clouds can be registered together and combined to create larger, unified maps of a space.
@@ -97,7 +97,7 @@ Prior to joining NRG, I completed my undergraduate studies at the University of 
 {% include youtube.html id="YJJ4hOkALdQ" %}
 
 ---
-# Publications
+## Publications
 1. R. Konda\*, D. Bombara\*, S. Swanbeck\*, and J. Zhang, "Anthropomorphic twisted string actuated soft robotic gripper with tendon-based stiffening," IEEE Transactions on Robotics, vol. 39, no. 2, pp. 1178-1195, 2023 (*equal contribution).
 2. A. Baker, C. Foy, S. Swanbeck, R. Konda and J. Zhang, "STAR–2: A Soft Twisted-string-actuated Anthropomorphic Robotic Gripper: Design, Fabrication, and Preliminary Testing," 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA, 2023, pp. 643-648.
 3. S. Swanbeck, R. Konda, and J. Zhang, "Kinematic Modeling of a Twisted-String Actuated Soft Robotic Finger as Part of an Anthropomorphic Gripper," 2023 Modeling, Estimation and Control Conference (MECC), Lake Tahoe, NV, USA, 2023.
