@@ -40,8 +40,7 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 <!-- youtube.html id="wLi5IyUC0lg" -->
 <!-- youtube.html id="H9DwXMYC1yQ" -->
 
-{% include youtube.html id="wLi5IyUC0lg" %}
-{% include youtube.html id="hxRTpih4y6U" %}
+
 
 ### Image Models for Detection of Corroded Material in Industrial Environments (_August 2023_)
 - Mask RCNN, residual network, and autoencoder architectures all explored as means of autonomously detecting corroded material in industrial settings.
