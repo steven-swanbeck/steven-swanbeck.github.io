@@ -37,8 +37,10 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 ![Survey](/assets/img/ex.png)
 <!-- ![Survey](/assets/img/caught_in_the_act.png) -->
 <!-- ![Repair](/assets/img/caught_in_the_act_the_finale.png) -->
+<!-- youtube.html id="wLi5IyUC0lg" -->
+<!-- youtube.html id="H9DwXMYC1yQ" -->
 
-{% include youtube.html id="H9DwXMYC1yQ" %}
+{% include youtube.html id="wLi5IyUC0lg" %}
 {% include youtube.html id="hxRTpih4y6U" %}
 
 ### Image Models for Detection of Corroded Material in Industrial Environments (_August 2023_)
