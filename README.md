@@ -37,6 +37,7 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 ![Survey](/assets/img/ex.png)
 <!-- ![Survey](/assets/img/caught_in_the_act.png) -->
 <!-- ![Repair](/assets/img/caught_in_the_act_the_finale.png) -->
+{% include youtube.html id="wLi5IyUC0lg" %}
 {% include youtube.html id="H9DwXMYC1yQ" %}
 {% include youtube.html id="hxRTpih4y6U" %}
 
@@ -99,7 +100,8 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 - The gripper was shared with NASA's Dexterous Robotics Team at Johnson Space Center in Houston and temporarily attached to their Valkyrie humanoid robot.
 
 ![SoftGripper](/assets/img/soft_gripper.jpg)
-
+{% include youtube.html id="PzI-jFkVfLc" %}
+{% include youtube.html id="ODOsu-wWiis" %}
 ![Valkyrie](/assets/img/gripperonValkyrie.jpg)
 
 ### Sublunar Exploration Quadruped (_March 2021 - January 2022_)
@@ -108,7 +110,9 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 - The prototype features PID-based self-stabilization and adjustable gait parameters, plus a remote control setting to allow a user to walk it around.
 
 ![Quadruped](/assets/img/seq_standing.png)
-
+{% include youtube.html id="LHgbjfePTno" %}
+{% include youtube.html id="Oor5UM_UCEk" %}
+{% include youtube.html id="YJJ4hOkALdQ" %}
 
 <!-- 
 ---
