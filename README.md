@@ -34,9 +34,10 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 - Predictions about which material to repair can be made autonomously using custom-trained detection models or made directly by a human supervisor using the [labelme](https://github.com/wkentaro/labelme) image labeling tool to create polygons around material to coat which are used in real time to generate plans to repair the associated surfaces. Because labels are generated in the labelme format, this allows a training dataset to be constructed over time which can be used to train increasingly accurate ML models for autonomous detections.
 - Work also extended to perform surface inspections to detect the presence of alpha radiation emitted by previously irradiated material in a nuclear boneyard setting for Los Alamos National Laboratory.
 
+![Survey](/assets/img/ex.png)
 <!-- ![Survey](/assets/img/caught_in_the_act.png) -->
 <!-- ![Repair](/assets/img/caught_in_the_act_the_finale.png) -->
-<!-- {% include youtube.html id="wLi5IyUC0lg" %} -->
+<!-- {% include youtube.   html id="wLi5IyUC0lg" %} -->
 {% include youtube.html id="H9DwXMYC1yQ" %}
 {% include youtube.html id="hxRTpih4y6U" %}
 
@@ -52,6 +53,7 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 - Fixtures can also be downsampled or upsampled up to a desired density required for the intended task.
 - Traversal of these virtual fixtures allows full non-contact coverage of the associated surface, useful for tasks including inspection, painting, and radiation survey.
 
+![Virtual Fixtures](/assets/img/virtual_fixtures.png)
 ![Repair](/assets/img/caught_in_the_act_the_finale.png)
 
 ### Drone Gripper for Passive Grasping and Perching (_April 2023_)
