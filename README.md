@@ -29,14 +29,14 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 
 ### Non-Contact Surface Coverage for Repair of Corroded Material (_May 2023 - Present_)
 - Autonomous detection of corroded material within the environment using fused sensor measurements informs which surfaces are in need of repair.
-- The geometries of these surfaces are reconstructed using the collected sensor data and used to develop a series of virtual fixtures offset from the surface at which a spray coating can be applied to coat the target surface, arresting the development of further decay.
+- The geometries of these surfaces are reconstructed using the collected sensor data and virtual fixtures are used to apply a spray coating over the target surface, arresting the development of further decay.
 - Using the perceived environment geometry and manipulability of the system, virtual fixtures are compliantly replanned until successful to enable surface coverage given these constraints.
 - Predictions about which material to repair can be made autonomously using custom-trained detection models or made directly by a human supervisor using the [labelme](https://github.com/wkentaro/labelme) image labeling tool to create polygons around material to coat which are used in real time to generate plans to repair the associated surfaces. Because labels are generated in the labelme format, this allows a training dataset to be constructed over time which can be used to train increasingly accurate ML models for autonomous detections.
-- Work also extended to perform surface inspections to detect the presence of alpha radiation emitted by previously irradiated material in a nuclear boneyard setting.
+- Work also extended to perform surface inspections to detect the presence of alpha radiation emitted by previously irradiated material in a nuclear boneyard setting for Los Alamos National Laboratory.
 
 <!-- ![Survey](/assets/img/caught_in_the_act.png) -->
-![Repair](/assets/img/caught_in_the_act_the_finale.png)
-{% include youtube.html id="wLi5IyUC0lg" %}
+<!-- ![Repair](/assets/img/caught_in_the_act_the_finale.png) -->
+<!-- {% include youtube.html id="wLi5IyUC0lg" %} -->
 {% include youtube.html id="H9DwXMYC1yQ" %}
 {% include youtube.html id="hxRTpih4y6U" %}
 
@@ -46,6 +46,13 @@ I am a graduate student in the [Nuclear and Applied Robotics Group (NRG)](https:
 - Models were integrated into a front end processing pipeline to create probabilistic masks of images that were then used to inform the associated surface geometry from 3D data.
 
 ![image_model_results](/assets/img/image_model_results.png)
+
+### Virtual Fixture Generation over Complex Geometries (_May 2023 - July 2023_)
+- Using point cloud data collected from surfaces of interest, a series of virtual fixtures are generated that are offset from a target surface by a set distance.
+- Fixtures can also be downsampled or upsampled up to a desired density required for the intended task.
+- Traversal of these virtual fixtures allows full non-contact coverage of the associated surface, useful for tasks including inspection, painting, and radiation survey.
+
+![Repair](/assets/img/caught_in_the_act_the_finale.png)
 
 ### Drone Gripper for Passive Grasping and Perching (_April 2023_)
 - Gripper concept to allow a drone to passively perch on or hang under features in its environment, including tree branches, railings, and posts, to perform long-duration area surveillance tasks.
