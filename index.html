@@ -9,7 +9,7 @@
     <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
     <meta name="description" content="The personal website and online portfolio of Steven Swanbeck, a robotics researcher at The University of Texas at Austin."/>
-    <meta name="keywords" content="steven swanbeck, robotics, ut austin, nuclear and applied robotics group"/>
+    <meta name="keywords" content="steven swanbeck, robotics, machine learning, artifical intelligence, ut austin, nuclear and applied robotics group"/>
     <meta name="google-site-verification" content="_84jKoQeQmdGWScBpFXvMaCmgxhsOYs4yGrtqFKsEz0" />
 
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
@@ -94,6 +94,98 @@
                 <a href="" style="height: 12em;" class="research-thumb">
                     <center>
                         <video width="320" height="200" playsinline autoplay loop muted>
+                            <source src="assets/images/autonomous_robots_summary.mp4" type="video/mp4">
+                        </video>
+                    </center>
+                </a>
+                <a href="https://github.com/steven-swanbeck/autonomous_robots" class="research-proj-title">
+                    Autonomous Obstacle Avoidance, Localization, Navigation, and SLAM on a Mobile Robot
+                </a>
+                <p>
+                    <b>Steven Swanbeck</b>,
+                    <a style="color:#000;" href="">Daniel Meza,</a>
+                    <a style="color:#000;" href="">Jared Rosenbaum</a>
+                    <br> Course Project &nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    <b>Jan 2024 - Apr 2024</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/steven-swanbeck/autonomous_robots">Code</a>
+                    <li>Simple obstacle avoidance, particle filter-based localization, navigation using RRT* for global planning and a line-of-sight carrot planner for local planning, and SLAM using correlative scan matching and GTSAM for pose graph optimization implemented to run onboard an autonomous mobile robot in real time.</li>
+                </p>
+            </div>
+
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <center>
+                        <video width="320" height="200" playsinline autoplay loop muted>
+                            <source src="assets/images/hylacomylus_example.mp4" type="video/mp4">
+                        </video>
+                    </center>
+                </a>
+                <a href="" class="research-proj-title">
+                    <i>Hylacomylus</i>: Memory Efficient and Robot-Agnostic SLAM for Operation in Large-Scale Environments with Computationally-Limited Hardware 
+                </a>
+                <p>
+                    <b>Steven Swanbeck</b>
+                    <br> Research Project &nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    <b>Jan 2024 - Apr 2024</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="">Code (Coming Soon)</a>
+                    <li><i>Hylacomylus</i> implements pure visual SLAM using <a href="https://github.com/PRBonn/kiss-icp">KISS-ICP</a> with dynamic data loading and unloading properties to allow comutationally-limited robots to produce and maintain highly-detailed maps of space that remain computationally- and memory-friendly.</li>
+                    <li>Produced maps can be effortlessly reloaded into working memory, transferred to other systems for use, or added to.</li>
+                </p>
+            </div>
+
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <center>
+                        <video width="320" height="200" playsinline autoplay loop muted>
+                            <source src="assets/images/gators_square.mp4" type="video/mp4">
+                        </video>
+                    </center>
+                </a>
+                <a href="" class="research-proj-title">
+                    GaTORS: A Game-Theoretic Tool for Optimal Robot Platform Selection and Design in Surface Coverage Applications 
+                </a>
+                <p>
+                    <b>Steven Swanbeck</b>,
+                    <a style="color:#000;" href="">Daniel Meza,</a>
+                    <a style="color:#000;" href="">Jared Rosenbaum,</a>
+                    <a style="color:#000;" href="">David Fridovich-Keil,</a>
+                    <a style="color:#000;" href="">Mitch Pryor</a>
+                    <br> Submitted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024) &nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    <b>Jan 2024 - Mar 2024</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="">Paper (coming soon)</a>
+                    <li>GaTORS presents a framework that helps answer the questions of <i>which</i> and <i>how many</i> robots should be deployed in real world environments to complete surface coverage tasks.</li>
+                    <li>The design of systems can also be optimized by performing systematic parameter sweeps over the space of possible configurations to set targets to achieve economic viability.</li>
+                </p>
+            </div>
+
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <center>
+                        <video width="320" height="200" playsinline autoplay loop muted>
+                            <source src="assets/images/ar_star_interactions.mp4" type="video/mp4">
+                        </video>
+                    </center>
+                </a>
+                <a href="" class="research-proj-title">
+                    AR-STAR: An Augmented Reality Tool for Online Modification of Robot Point Cloud Data
+                </a>
+                <p>
+                    <a style="color:#000;" href="">Frank Regal*,</a>
+                    <b>Steven Swanbeck*</b>,
+                    <a style="color:#000;" href="">Fabian Parra,</a>
+                    <a style="color:#000;" href="">Mitch Pryor</a>
+                    <br> ACM/IEEE International Conference on Human-Robot Interaction (HRI '24) &nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    <b>Oct 2023 - Dec 2023</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://dl.acm.org/doi/10.1145/3610978.3640571">Paper</a>
+                    <li>Uncertainty in sensor data collected onboard a deployed robot can hinder its ability to complete a mission, and it can be difficult for a robot to autonomously detect and overcome these uncertainties.</li>
+                    <li>We develop an augmented reality tool that allows a a human supervisor to visualize a robot's predictions and modify them online using one of three interaction modalities and study user preferences in using them.</li>
+                </p>
+            </div>
+
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <center>
+                        <video width="320" height="200" playsinline autoplay loop muted>
                             <source src="assets/images/we_paint.mp4" type="video/mp4">
                         </video>
                     </center>
@@ -153,7 +245,7 @@
                     <a style="color:#000;" href="">Jared Rosenbaum,</a>
                     <a style="color:#000;" href="https://www.me.utexas.edu/people/faculty-directory/pryor">Mitch Pryor</a>
                     <br> XR-ROB Second International Workshop on "Horizons of Extended Robotics Reality" @ IEEE IROS (2023) &nbsp;&nbsp;&bull;&nbsp;&nbsp; <strong>Second Prize</strong> <br>
-                    <b>Jul 2023 - Present</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <b>Jul 2023 - Aug 2023</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="https://arxiv.org/abs/2311.00988">Paper</a>
                     <li>Using an AR head-mounted display, a user is able to view predictions made by a surveying robot for surface repair.</li>
                     <li>The user can accept, reject, or modify the plan generated by the robot to prevent incidental covering of sensitive material or repair of unproblematic surfaces.</li>
@@ -164,7 +256,7 @@
                 <a href="" style="height: 12em;" class="research-thumb">
                     <center>
                         <video width="320" height="200" playsinline autoplay loop muted>
-                            <source src="assets/images/stch_demo.mp4" type="video/mp4">
+                            <source src="assets/images/corrosion_repair_demo.mp4" type="video/mp4">
                         </video>
                     </center>
                 </a>
@@ -173,7 +265,7 @@
                 </a>
                 <p>
                     <b>Steven Swanbeck</b>
-                    <br> Ongoing Research Project <br>
+                    <br> Research Project <br>
                     <b>May 2023 - Present</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="">Code (coming soon)</a>
                     <li>Surface identification used to extract the locations and geometries of possible corroded surfaces within industrial environments.</li>
@@ -194,8 +286,8 @@
                 </a>
                 <p>
                     <b>Steven Swanbeck</b>
-                    <br> Ongoing Research Project <br>
-                    <b>May 2023 - Present</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <br> Research Project <br>
+                    <b>May 2023 - Jul 2023</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="">Code (coming soon)</a>
                     <li>Using computer vision models, LiDAR detection models, or supervised scene labeling, surfaces on which a robot should perform surface inspection are denoted.</li>
                     <li>A discrete pose mesh is created offset from the surface that can be traversed using a manipulator to perform the surface coverage task.</li>
@@ -229,6 +321,29 @@
                 <a href="" style="height: 12em;" class="research-thumb">
                     <center>
                         <video width="320" height="200" playsinline autoplay loop muted>
+                            <source src="assets/images/ik_toolbox.mp4" type="video/mp4">
+                        </video>
+                    </center>
+                </a>
+                <a href="https://github.com/steven-swanbeck/AlgorithmsforSensorBasedRobotics" class="research-proj-title">
+                    A MATLAB Toolbox using Screw Theory for Forward and Inverse Kinematics of Manipulators
+                </a>
+                <p>
+                    <b>Steven Swanbeck</b>,
+                    <a style="color:#000;" href="">Jared Rosenbaum</a>
+                    <br> Course Project <br>
+                    <b>Feb 2023 - April 2023</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/steven-swanbeck/AlgorithmsforSensorBasedRobotics">Code</a>
+                    <li>Robots of arbitrary structure can be defined and visualized using screw theory.</li>
+                    <li>Space frame and body frame forward kinematics can be calculated and visualized and manipulability measures are calculated and monitored.</li>
+                    <li>Various inverse kinematics algorithms, including Jacobian pseudo-inverse, Jacobian transpose, redundancy resolution, and damped least-squares are available.</li>
+                </p>
+            </div>
+
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <center>
+                        <video width="320" height="200" playsinline autoplay loop muted>
                             <source src="assets/images/detection_fusion_and_pipeline.mp4" type="video/mp4">
                         </video>
                     </center>
@@ -238,8 +353,8 @@
                 </a>
                 <p>
                     <b>Steven Swanbeck</b>
-                    <br> Ongoing Research Project <br>
-                    <b>Jan 2023 - Present</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <br> Research Project <br>
+                    <b>Jan 2023 - Jun 2023</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="">Code (coming soon)</a>
                     <li>Separate trained LiDAR-based and image-based prediction models are used to make semantic (point-wise/pixel-wise) predictions about the presence of objects of interest within the robot environment.</li>
                     <li>Predictions are fused spatially using projection and probabilistically in the Bayesian sense to predict the locations of these objects in the environment.</li>
@@ -308,7 +423,7 @@
                     <a style="color:#000;" href="https://www.unr.edu/me/about/people/jun-zhang">Jun Zhang</a>
                     <br> Modeling, Estimation, and Control Conference (MECC 2023) <br>
                     <b>Apr 2022 - Aug 2022</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="">Paper (coming soon)</a>
+                    <a href="https://www.sciencedirect.com/science/article/pii/S240589632302390X">Paper</a>
                     <li>Modeling strategies for a twisted-string actuator-driven soft robotic gripper developed to enable control and autonomous capabilities.</li>
                 </p>
             </div>
