@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- <body style="background-color:rgb(0, 0, 0);">
+<!-- <body style="background-color:rgb(230, 196, 255);">
     <h1>HTML Articles</h1>
 </body> -->
 <html>
@@ -8,7 +8,7 @@
     <title>Steven Swanbeck</title>
     <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
-    <meta name="description" content="The personal website and online portfolio of Steven Swanbeck, a robotics researcher at The University of Texas at Austin."/>
+    <meta name="description" content="The personal website and online portfolio of Steven Swanbeck, a robotics PhD student at The University of Texas at Austin."/>
     <meta name="keywords" content="steven swanbeck, robotics, machine learning, artifical intelligence, ut austin, nuclear and applied robotics group"/>
     <meta name="google-site-verification" content="_84jKoQeQmdGWScBpFXvMaCmgxhsOYs4yGrtqFKsEz0" />
 
@@ -41,9 +41,9 @@
             </div>
             <div id="profile-intro">
                 <div id="profile-name">Steven Swanbeck</div>
-                <div id="profile-email">steven dot swanbeck at gmail dot com</div>
+                <div id="profile-email">stevenswanbeck at gmail dot com</div>
                 <p align="justify">
-                    I am pursuing my MS in Mechanical Engineering and Robotics at The University of Texas at Austin advised by
+                    I am pursuing my PhD in Mechanical Engineering and Robotics at The University of Texas at Austin advised by
                     <a href="https://www.me.utexas.edu/people/faculty-directory/pryor">Dr. Mitch Pryor</a> in the <a href="https://robotics.me.utexas.edu/">Nuclear and Applied Robotics Group (NRG)</a>.
                     I am passionate about developing robotic systems that assist humans to solve our greatest challenges. I am broadly interested in perception, manipulation, and human-robot interaction.
                 </p>
@@ -75,12 +75,10 @@
         <div class="section" id="updates">
             <h1>Updates</h1>
             <ul>
-                <li> <b>Aug 2022</b> I'm joining the <a href="https://robotics.me.utexas.edu/">Nuclear and Applied Robotics Group</a> advised by Dr. Mitch Pryor!</li>
-                <li> <b>Aug 2022</b> I'm starting my MS in robotics at UT Austin.
-                <!-- <li> <b>Apr 2022</b> My first <a href="https://ieeexplore.ieee.org/abstract/document/9969176"> paper</a> is accepted to IEEE Transactions on Robotics</li> -->
+                <li> <b>Oct 2024</b> Motivated by the directions of my PhD research, I have founded <i>Sirus Robotics</i>. More information to follow at a later date.
+                <li> <b>Aug 2022</b> I'm starting my PhD in robotics at UT Austin in the <a href="https://robotics.me.utexas.edu/">Nuclear and Applied Robotics Group</a> advised by Dr. Mitch Pryor.
                 <li> <b>Dec 2021</b> I graduated Summa Cum Laude as the valedictorian of the engineering class with my BS from UNR.</li>
-                <li> <b>Aug 2021</b> I'm starting research with the <a href="https://packpages.unr.edu/jun">Smart Robotics Lab</a> advised by Dr. Jun Zhang!</li>
-                <li> <b>May 2021</b> I started learning how to build mechatronic systems with Arduino and how to code with C, C++, and Python.</li>
+                <li> <b>Aug 2021</b> I'm starting research with the <a href="https://packpages.unr.edu/jun">Smart Robotics Lab</a> advised by Dr. Jun Zhang.</li>
                 <li> <b>May 2021</b> I completed my first robotics class, Dr. Jun Zhang's ME422 Introduction to Robotics, and pivoted my aspirations from aerospace engineering toward robotics.</li>
             </ul>
             <p></p>
@@ -89,6 +87,92 @@
         <div class="divider"></div>
         <div style="display:flex;flex-direction: column;" id="projects">
             <h1>Projects</h1>
+            
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <center>
+                        <video width="320" height="200" playsinline autoplay loop muted>
+                            <source src="assets/images/caught_in_the_act.png" type="video/mp4">
+                        </video>
+                    </center>
+                </a>
+                <a href="" class="research-proj-title">
+                    Darwin: An Ecosystem of Modular and Flexible Skillsets for Robotics Applications
+                </a>
+                <p>
+                    <b>Steven Swanbeck</b>
+                    <br> Research Project &nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    <b>Oct 2024 - Present</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="">Code (coming soon)</a>
+                    <li><i>Darwin</i> is a paradigm for creating maximally modular robotics skillsets. Each skillset is a ROS-enabled, BT.CPP-driven, and Docker-containerized application.</li>
+                    <li>Using ROS allows for communication between each containerized skillset and use of behavior trees allows skills to be easily chained together to produce complex, task-specific, and reactive system behavior. Containerization allows for easy deployment across many different systems of different types.</li>
+                    <li>Current <i>Darwin</i> capabilities include visual sensor fusion, 3D SLAM, data aggregation, ML model integration, information gain viewpose sampling, generative behavior tree construction and validation, raw data annotation, Meta's Llama 3 and SAM 2, and corrosion detection, plus many supported robot and sensor drivers. New capabilities will be continuously added for the foreseeable future.</li>
+                </p>
+            </div>
+
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <center>
+                        <video width="320" height="200" playsinline autoplay loop muted>
+                            <source src="assets/images/caught_in_the_act.png" type="video/mp4">
+                        </video>
+                    </center>
+                </a>
+                <a href="" class="research-proj-title">
+                    Hyla-SLAM: Extremely Scalable and Memory Efficient LiDAR-Based SLAM for Robotics Applications
+                </a>
+                <p>
+                    <b>Steven Swanbeck</b>
+                    <br> Research Project &nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    <b>Aug 2024 - Present</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="">Paper (coming soon)</a>
+                    <li><i>Hyla-SLAM</i> integrates the dynamic data loading properties of the Hylacomylus mapping plugin with a set of possible localization solutions (the default of which is <a href="https://github.com/PRBonn/kiss-icp">KISS-ICP</a>) to provide a scalable SLAM solution that can build infinite* maps and can be deployed on any system that has a 3D LiDAR sensor.</li>
+                    <li>*Can generate maps with volume up to cube with side length of 20,000 light years. Dynamic data loading means that the memory profile remains roughly constant during operation, preventing progressive performance degradation as map size grows.</li>
+                </p>
+            </div>
+
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <center>
+                        <video width="320" height="200" playsinline autoplay loop muted>
+                            <source src="assets/images/caught_in_the_act.png" type="video/mp4">
+                        </video>
+                    </center>
+                </a>
+                <a href="" class="research-proj-title">
+                    The BT.CPP Multi-Agent Behavior Tree Toolbox
+                </a>
+                <p>
+                    <b>Steven Swanbeck</b>
+                    <br> Research Project &nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    <b>Aug 2024 - Oct 2024</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="">Code (coming soon)</a>
+                    <li>Behavior trees are incredibly popular for use in robotics applications because of their flexibilty in construction and modularity. However, they do not generally scale to decentralized multi-agent applications. </li>
+                    <li>The <i>Multi-Agent Behavior Tree Toolbox</i> aims to solve this by providing a set of general-purpose BT.CPP behaviors for decentralized coordination and communication between multiple systems (using ROS), transfer of data on disk between systems (using a lightweight data transfer library written in Rust), and running of subprocesses.</li>
+                </p>
+            </div>
+
+            <div>
+                <a href="" style="height: 12em;" class="research-thumb">
+                    <center>
+                        <video width="320" height="200" playsinline autoplay loop muted>
+                            <source src="assets/images/caught_in_the_act.png" type="video/mp4">
+                        </video>
+                    </center>
+                </a>
+                <a href="" class="research-proj-title">
+                    Poirot: General-Purpose Behavior Tree Interfaces for Machine Learning Models
+                </a>
+                <p>
+                    <b>Steven Swanbeck</b>
+                    <br> Research Project &nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    <b>Aug 2024 - Oct 2024</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="">Code (coming soon)</a>
+                    <li><i>Poirot</i> is designed to make integration of machine learning capabilities into larger behavior trees simple.</li>
+                    <li><i>Poirot</i> standardizes input and output types of models of interest and provides general-purpose ROS wrappers and BT.CPP behaviors to make it easy to integrate <b>any</b> machine learning model into a larger robot software ecosystem.</li>
+                    <li>Plugins currently exist for Meta's Llama 3 and SAM2 models, IDEA-Research's Grounded SAM 2, LabelMe, and other custom models.</li>
+                </p>
+            </div>
 
             <div>
                 <a href="" style="height: 12em;" class="research-thumb">
@@ -143,15 +227,16 @@
                     </center>
                 </a>
                 <a href="" class="research-proj-title">
-                    Hylacomylus: Memory Efficient and Robot-Agnostic SLAM for Operation in Large-Scale Environments with Computationally-Limited Hardware 
+                    Hylacomylus: Memory Efficient Mapping for Operation in Large-Scale Environments
                 </a>
                 <p>
                     <b>Steven Swanbeck</b>
                     <br> Research Project &nbsp;&nbsp;&nbsp;&nbsp; <br>
                     <b>Jan 2024 - Apr 2024</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="">Code (coming soon)</a>
-                    <li><i>Hylacomylus</i> implements pure visual SLAM using <a href="https://github.com/PRBonn/kiss-icp">KISS-ICP</a> with dynamic data loading and unloading properties to allow comutationally-limited robots to produce and maintain highly-detailed maps of space that remain computationally- and memory-friendly.</li>
-                    <li>Produced maps can be effortlessly reloaded into working memory, transferred to other systems for use, or added to.</li>
+                    <!-- <li><i>Hylacomylus</i> implements pure visual SLAM using <a href="https://github.com/PRBonn/kiss-icp">KISS-ICP</a> with dynamic data loading and unloading properties to allow comutationally-limited robots to produce and maintain highly-detailed maps of space that remain computationally- and memory-friendly.</li> -->
+                    <li><i>Hylacomylus</i> is a mapping plugin that enables dynamic data loading and unloading during robot deployment. This allows computationally- or memory-constrained robots to produce and maintain maps that are both extremely dense and extremely large.</li>
+                    <li>Produced maps can be effortlessly reloaded into working memory, transferred to other systems for use, or extended on subsequient deployments.</li>
                 </p>
             </div>
 
@@ -172,7 +257,9 @@
                     <a style="color:#000;" href="">Jared Rosenbaum,</a>
                     <a style="color:#000;" href="">David Fridovich-Keil,</a>
                     <a style="color:#000;" href="">Mitch Pryor</a>
-                    <br> Submitted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024) &nbsp;&nbsp;&nbsp;&nbsp; <br>
+
+                    <!-- <br> Submitted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024) &nbsp;&nbsp;&nbsp;&nbsp; <br> -->
+                    <br> Research Project &nbsp;&nbsp;&nbsp;&nbsp; <br>
                     <b>Jan 2024 - Mar 2024</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="">Paper (coming soon)</a>
                     <li>GaTORS presents a framework that helps answer the questions of <i>which</i> and <i>how many</i> robots should be deployed in real world environments to complete surface coverage tasks.</li>
@@ -239,8 +326,7 @@
                 </a>
                 <p>
                     <b>Steven Swanbeck</b>,
-                    <a style="color:#000;" href="">Daniel Meza,</a>
-                    <a style="color:#000;" href="">Jared Rosenbaum</a>
+                    <a style="color:#000;" href="">Daniel Meza</a>
                     <br> Course Project &nbsp;&nbsp;&nbsp;&nbsp; <br>
                     <b>Oct 2023 - Dec 2023</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="https://github.com/steven-swanbeck/game_theoretic_painting.git">Code</a>
@@ -328,9 +414,7 @@
                     Bat-Inspired Passive Drone Gripper for Angle-Invariant Perching
                 </a>
                 <p>
-                    <b>Steven Swanbeck</b>,
-                    <a style="color:#000;" href="">Caleb Horan</a>,
-                    <a style="color:#000;" href="">Jared Rosenbaum</a>
+                    <b>Steven Swanbeck</b>
                     <br> Course Project <br>
                     <b>March 2023 - April 2023</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="https://github.com/steven-swanbeck/passive_tree_gripper/">Code</a>
@@ -351,8 +435,7 @@
                     A MATLAB Toolbox using Screw Theory for Forward and Inverse Kinematics of Manipulators
                 </a>
                 <p>
-                    <b>Steven Swanbeck</b>,
-                    <a style="color:#000;" href="">Jared Rosenbaum</a>
+                    <b>Steven Swanbeck</b>
                     <br> Course Project <br>
                     <b>Feb 2023 - April 2023</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="https://github.com/steven-swanbeck/AlgorithmsforSensorBasedRobotics">Code</a>
@@ -416,10 +499,7 @@
                     Robotic Street Scam Artist
                 </a>
                 <p>
-                    <b>Steven Swanbeck</b>,
-                    <a style="color:#000;" href="">Jared Rosenbaum</a>,
-                    <a style="color:#000;" href="">Caleb Horan</a>,
-                    <a style="color:#000;" href="">Alex Macris</a>
+                    <b>Steven Swanbeck</b>
                     <br> Course Project <br>
                     <b>Oct 2022 - Nov 2022</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="https://github.com/steven-swanbeck/robot_shell_game">Code</a>
@@ -486,8 +566,7 @@
                     Dexterous Soft Gripper Manipulator Integration for Human-Robot Interaction
                 </a>
                 <p>
-                    <b>Steven Swanbeck</b>,
-                    <a style="color:#000;" href="https://www.linkedin.com/in/aaron-baker-310baa206/">Aaron Baker</a>
+                    <b>Steven Swanbeck</b>
                     <br> Research Project <br>
                     <b>Feb 2022 - Aug 2022</b>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
                     <a href="https://github.com/steven-swanbeck/ROS_ur3ehand">Code</a>
